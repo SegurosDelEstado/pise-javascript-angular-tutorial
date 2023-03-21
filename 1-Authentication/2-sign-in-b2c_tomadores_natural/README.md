@@ -72,7 +72,7 @@ Here you'll learn about [ID Tokens](https://docs.microsoft.com/azure/active-dire
 From your shell or command line:
 
 ```console
-git clone https://github.com/Azure-Samples/ms-identity-javascript-angular-tutorial.git
+git clone https://segurosdelestado.visualstudio.com/%28PISE%29%20Plataforma%20de%20Identidad%20de%20Seguros%20del%20Estado/_git/pise-javascript-angular-tutorial
 ```
 
 or download and extract the repository *.zip* file.
@@ -82,8 +82,8 @@ or download and extract the repository *.zip* file.
 ### Step 2: Install project dependencies
 
 ```console
-    cd ms-identity-javascript-angular-tutorial
-    cd 1-Authentication/2-sign-in-b2c/SPA
+    cd pise-javascript-angular-tutorial
+    cd 1-Authentication/2-sign-in-b2c_tomadores_natural/SPA
     npm install
 ```
 
