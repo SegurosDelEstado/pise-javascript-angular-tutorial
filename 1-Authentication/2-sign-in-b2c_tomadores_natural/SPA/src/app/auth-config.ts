@@ -16,22 +16,22 @@ const isIE = window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigato
  */
 export const b2cPolicies = {
     names: {
-    signUpSignIn: 'B2C_1_Tomador_Natural_SISU',
-    resetPassword: 'B2C_1_Tomador_Natural_ResetPassword',
-    editProfile: 'B2C_1_Tomador_Natural_EditProfile',
+    signUpSignIn: 'B2C_1_Tomador_Juridico_SISU ',
+    resetPassword: 'B2C_1_Tomador_Juridico_ResetPassword',
+    editProfile: 'B2C_1_Tomador_Juridico_EditProfile',
     },
     authorities: {
         signUpSignIn: {
-        authority: 'https://SEProveedoresDev.b2clogin.com/SEProveedoresDev.onmicrosoft.com/B2C_1_Tomador_Natural_SISU',
+        authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Juridico_SISU',
         },
         resetPassword: {
-          authority: 'https://SEProveedoresDev.b2clogin.com/SEProveedoresDev.onmicrosoft.com/B2C_1_Tomador_Natural_ResetPassword',
+          authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Juridico_ResetPassword',
         },
         editProfile: {
-          authority: 'https://SEProveedoresDev.b2clogin.com/SEProveedoresDev.onmicrosoft.com/B2C_1_Tomador_Natural_EditProfile',
+          authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Juridico_EditProfile',
         },
     },
-  authorityDomain: 'SEProveedoresDev.b2clogin.com',
+  authorityDomain: 'PISEDevt.b2clogin.com',
 };
 
 /**
@@ -41,7 +41,7 @@ export const b2cPolicies = {
  */
 export const msalConfig: Configuration = {
     auth: {
-        clientId: '4c91c897-6a1a-4cc6-a00e-24d94c1763bb', // This is the ONLY mandatory field that you need to supply.
+        clientId: '0f35c8e7-9681-4229-9504-2b8276d881fb', // This is the ONLY mandatory field that you need to supply.
         authority: b2cPolicies.authorities.signUpSignIn.authority, // Defaults to "https://login.microsoftonline.com/common"
         knownAuthorities: [b2cPolicies.authorityDomain], // Mark your B2C tenant's domain as trusted.
         redirectUri: '/auth', // Points to window.location.origin by default. You must register this URI on Azure portal/App Registration.
