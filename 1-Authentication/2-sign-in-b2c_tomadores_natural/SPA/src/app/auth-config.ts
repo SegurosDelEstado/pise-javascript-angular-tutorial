@@ -16,19 +16,19 @@ const isIE = window.navigator.userAgent.indexOf("MSIE ") > -1 || window.navigato
  */
 export const b2cPolicies = {
     names: {
-    signUpSignIn: 'B2C_1_Tomador_Natural_SISU',
-    resetPassword: 'B2C_1_Tomador_Natural_ResetPassword',
-    editProfile: 'B2C_1_Tomador_Natural_EditProfile',
+    signUpSignIn: 'B2C_1_Tomador_Juridico_SISU ',
+    resetPassword: 'B2C_1_Tomador_Juridico_ResetPassword',
+    editProfile: 'B2C_1_Tomador_Juridico_EditProfile',
     },
     authorities: {
         signUpSignIn: {
-        authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Natural_SISU',
+        authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Juridico_SISU',
         },
         resetPassword: {
-          authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Natural_ResetPassword',
+          authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Juridico_ResetPassword',
         },
         editProfile: {
-          authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Natural_EditProfile',
+          authority: 'https://PISEDevt.b2clogin.com/PISEDevt.onmicrosoft.com/B2C_1_Tomador_Juridico_EditProfile',
         },
     },
   authorityDomain: 'PISEDevt.b2clogin.com',
